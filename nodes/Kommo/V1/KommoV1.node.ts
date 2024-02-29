@@ -1,5 +1,7 @@
 /* eslint-disable n8n-nodes-base/node-filename-against-convention */
 /* eslint-disable n8n-nodes-base/node-filename-against-convention */
+/* eslint-disable n8n-nodes-base/node-filename-against-convention */
+/* eslint-disable n8n-nodes-base/node-filename-against-convention */
 import {
 	IExecuteFunctions,
 	INodeType,
@@ -15,6 +17,7 @@ import * as leads from './resources/leads';
 import * as tasks from './resources/tasks';
 import * as companies from './resources/companies';
 import * as notes from './resources/notes';
+import * as lists from './resources/lists';
 
 export class KommoV1 implements INodeType {
 	description: INodeTypeDescription;
@@ -64,6 +67,10 @@ export class KommoV1 implements INodeType {
 							value: 'leads',
 						},
 						{
+							name: 'List',
+							value: 'lists',
+						},
+						{
 							name: 'Note',
 							value: 'notes',
 						},
@@ -80,6 +87,7 @@ export class KommoV1 implements INodeType {
 				...leads.descriptions,
 				...tasks.descriptions,
 				...notes.descriptions,
+				...lists.descriptions,
 			],
 		};
 	}

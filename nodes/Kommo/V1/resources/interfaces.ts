@@ -11,6 +11,13 @@ type IKommoMap = {
 	statuses: 'get' | 'create' | 'update' | 'remove';
 	catalogs: 'get' | 'create' | 'update' | 'getElements' | 'createElements' | 'updateElements';
 	tasks: 'getTasks' | 'createTasks' | 'updateTasks';
+	lists:
+		| 'getLists'
+		| 'addLists'
+		| 'updateLists'
+		| 'getListElements'
+		| 'addListElements'
+		| 'updateListElements';
 };
 
 export type IKommo = AllEntities<IKommoMap>;
@@ -25,6 +32,7 @@ export type IStatusesKommo = Entity<IKommoMap, 'statuses'>;
 export type ICatalogsKommo = Entity<IKommoMap, 'catalogs'>;
 export type ITasksKommo = Entity<IKommoMap, 'tasks'>;
 export type INotesKommo = Entity<IKommoMap, 'notes'>;
+export type IListsKommo = Entity<IKommoMap, 'lists'>;
 
 export type IAccountProperties = PropertiesOf<IAccountKommo>;
 export type ILeadsProperties = PropertiesOf<ILeadsKommo>;
@@ -36,6 +44,7 @@ export type IStatusesProperties = PropertiesOf<IStatusesKommo>;
 export type ICatalogsProperties = PropertiesOf<ICatalogsKommo>;
 export type ITasksProperties = PropertiesOf<ITasksKommo>;
 export type INotesProperties = PropertiesOf<INotesKommo>;
+export type IListsProperties = PropertiesOf<IListsKommo>;
 
 export interface IAttachment {
 	fields: {
