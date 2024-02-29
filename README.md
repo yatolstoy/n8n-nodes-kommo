@@ -36,6 +36,8 @@ It supports these operations:
 - Add change and get deals
 - Add modify and retrieve tasks
 - Add modify and retrieve notes
+- Add modify and retrieve lists
+- Add modify and retrieve list elements
 
 ## Credentials
 
