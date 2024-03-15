@@ -41,9 +41,45 @@ export class KommoV1 implements INodeType {
 				{
 					name: 'kommoOAuth2Api',
 					required: true,
+					displayOptions: {
+						show: {
+							authentication: ['oAuth2'],
+						},
+					},
+				},
+				{
+					name: 'kommoLongLivedApi',
+					required: true,
+					displayOptions: {
+						show: {
+							authentication: ['longLivedToken'],
+						},
+					},
+					testedBy: {
+						request: {
+							method: 'GET',
+							url: 'account',
+						},
+					},
 				},
 			],
 			properties: [
+				{
+					displayName: 'Authentication',
+					name: 'authentication',
+					type: 'options',
+					options: [
+						{
+							name: 'Long Lived Token',
+							value: 'longLivedToken',
+						},
+						{
+							name: 'OAuth2',
+							value: 'oAuth2',
+						},
+					],
+					default: 'oAuth2',
+				},
 				{
 					displayName: 'Resource',
 					name: 'resource',

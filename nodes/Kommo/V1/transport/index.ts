@@ -15,7 +15,9 @@ export async function apiRequest(
 	body: IDataObject | GenericValue | GenericValue[] = {},
 	qs: IDataObject = {},
 ) {
-	const credentials = await this.getCredentials('kommoOAuth2Api');
+	const authenticationMethod = this.getNodeParameter('authentication', 0) as string;
+	const credentialType = authenticationMethod === 'oAuth2' ? 'kommoOAuth2Api' : 'kommoLongLivedApi';
+	const credentials = await this.getCredentials(credentialType);
 
 	const options: IHttpRequestOptions = {
 		method,
@@ -27,7 +29,7 @@ export async function apiRequest(
 		},
 	};
 	try {
-		return await this.helpers.httpRequestWithAuthentication.call(this, 'kommoOAuth2Api', options);
+		return await this.helpers.httpRequestWithAuthentication.call(this, credentialType, options);
 	} catch (e) {
 		const concreteErrorsDescription = e.cause?.response?.data['validation-errors'];
 		if (concreteErrorsDescription)
