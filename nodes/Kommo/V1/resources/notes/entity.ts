@@ -23,8 +23,7 @@ export const generalOptions: INodeProperties[] = [
 		typeOptions: {
 			loadOptionsMethod: 'getActiveUsersWithRobot',
 		},
-		description:
-			'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>.',
+		description: 'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 	},
 	{
 		displayName: 'Is Need To Trigger Digital Pipeline',
@@ -181,8 +180,7 @@ export const getNotesDescription = (
 						typeOptions: {
 							loadOptionsMethod: 'getActiveUsersWithRobot',
 						},
-						description:
-							'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>.',
+						description: 'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 					},
 					addRequestId(),
 				],

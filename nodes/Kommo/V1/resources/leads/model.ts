@@ -18,8 +18,7 @@ const modelDescription: INodeProperties[] = [
 		displayName: 'Pipeline Name or ID',
 		name: 'pipeline_id',
 		type: 'options',
-		description:
-			'Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>',
+		description: 'Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 		default: '',
 		typeOptions: {
 			loadOptionsMethod: 'getPipelines',
@@ -30,8 +29,7 @@ const modelDescription: INodeProperties[] = [
 		displayName: 'Status Name or ID',
 		name: 'status_id',
 		type: 'options',
-		description:
-			'Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>',
+		description: 'Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 		default: '',
 		typeOptions: {
 			loadOptionsMethod: 'getStatusesWithoutUnsorted',
@@ -47,8 +45,7 @@ const modelDescription: INodeProperties[] = [
 		typeOptions: {
 			loadOptionsMethod: 'getActiveUsersWithRobot',
 		},
-		description:
-			'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>.',
+		description: 'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 		// noDataExpression: true,
 	},
 	{
@@ -60,8 +57,7 @@ const modelDescription: INodeProperties[] = [
 		typeOptions: {
 			loadOptionsMethod: 'getActiveUsersWithRobot',
 		},
-		description:
-			'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>.',
+		description: 'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 		// noDataExpression: true,
 	},
 	{
@@ -73,8 +69,7 @@ const modelDescription: INodeProperties[] = [
 		typeOptions: {
 			loadOptionsMethod: 'getActiveUsersWithRobot',
 		},
-		description:
-			'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>.',
+		description: 'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 		// noDataExpression: true,
 	},
 	{
@@ -99,8 +94,7 @@ const modelDescription: INodeProperties[] = [
 		displayName: 'Loss Reason Name or ID',
 		name: 'loss_reason_id',
 		type: 'options',
-		description:
-			'Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>',
+		description: 'Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 		default: '',
 		typeOptions: {
 			loadOptionsMethod: 'getLossReasons',
@@ -146,8 +140,7 @@ export const makeLeadModelDescription = (
 						displayName: 'Tag Names or IDs',
 						name: 'id',
 						type: 'multiOptions',
-						description:
-							'Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>',
+						description: 'Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 						typeOptions: {
 							loadOptionsMethod: 'getTags',
 						},

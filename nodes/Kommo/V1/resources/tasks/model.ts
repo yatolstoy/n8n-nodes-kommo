@@ -29,8 +29,7 @@ export const taskModelDescription: INodeProperties[] = [
 		typeOptions: {
 			loadOptionsMethod: 'getActiveUsersWithRobot',
 		},
-		description:
-			'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>.',
+		description: 'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 	},
 	{
 		displayName: 'Entity Type',
@@ -60,8 +59,7 @@ export const taskModelDescription: INodeProperties[] = [
 		displayName: 'Task Type Names or Name or ID',
 		name: 'task_type_id',
 		type: 'options',
-		description:
-			'Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>.',
+		description: 'Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 		// eslint-disable-next-line n8n-nodes-base/node-param-default-wrong-for-options
 		default: 1,
 		typeOptions: {
@@ -95,8 +93,7 @@ export const taskModelDescription: INodeProperties[] = [
 		typeOptions: {
 			loadOptionsMethod: 'getActiveUsersWithRobot',
 		},
-		description:
-			'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>.',
+		description: 'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 	},
 	{
 		displayName: 'Updated By User Name or ID',
@@ -107,8 +104,7 @@ export const taskModelDescription: INodeProperties[] = [
 		typeOptions: {
 			loadOptionsMethod: 'getActiveUsersWithRobot',
 		},
-		description:
-			'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>.',
+		description: 'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 	},
 	{
 		displayName: 'Created At',

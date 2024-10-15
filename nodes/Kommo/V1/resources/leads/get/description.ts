@@ -46,8 +46,7 @@ export const description: ILeadsProperties = [
 			name: 'pipelines',
 			type: 'multiOptions',
 			default: [],
-			description:
-				'Select pipelines. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>.',
+			description: 'Select pipelines. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 			typeOptions: {
 				loadOptionsMethod: 'getPipelines',
 			},
@@ -58,8 +57,7 @@ export const description: ILeadsProperties = [
 			name: 'statuses',
 			type: 'multiOptions',
 			default: [],
-			description:
-				'Select statuses. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>.',
+			description: 'Select statuses. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 			options: [],
 			typeOptions: {
 				loadOptionsMethod: 'getStatuses',
@@ -74,8 +72,7 @@ export const description: ILeadsProperties = [
 			typeOptions: {
 				loadOptionsMethod: 'getActiveUsersWithRobot',
 			},
-			description:
-				'Select users. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>.',
+			description: 'Select users. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 			noDataExpression: true,
 		},
 		{
@@ -86,8 +83,7 @@ export const description: ILeadsProperties = [
 			typeOptions: {
 				loadOptionsMethod: 'getActiveUsersWithRobot',
 			},
-			description:
-				'Select users. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>.',
+			description: 'Select users. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 			noDataExpression: true,
 		},
 		{
@@ -98,8 +94,7 @@ export const description: ILeadsProperties = [
 			typeOptions: {
 				loadOptionsMethod: 'getActiveUsers',
 			},
-			description:
-				'Select users. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>.',
+			description: 'Select users. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 			noDataExpression: true,
 		},
 		addDateRangeDescription('Created at', 'created_at'),

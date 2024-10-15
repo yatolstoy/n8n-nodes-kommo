@@ -1,4 +1,5 @@
 import {
+	IconFile,
 	ICredentialDataDecryptedObject,
 	ICredentialTestRequest,
 	ICredentialType,
@@ -10,7 +11,7 @@ export class kommoLongLivedApi implements ICredentialType {
 	name = 'kommoLongLivedApi';
 	displayName = 'Kommo Long Lived Token API';
 	documentationUrl = 'https://kommo.com/developers';
-	icon = 'file:kommo_logo.svg';
+	icon = `file:kommo_logo.svg` as IconFile;
 	properties: INodeProperties[] = [
 		{
 			displayName: 'Subdomain',

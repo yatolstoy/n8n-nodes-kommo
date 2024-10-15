@@ -1,11 +1,11 @@
-import { ICredentialType, INodeProperties } from 'n8n-workflow';
+import { IconFile, ICredentialType, INodeProperties } from 'n8n-workflow';
 
 export class kommoOAuth2Api implements ICredentialType {
 	name = 'kommoOAuth2Api';
 	extends = ['oAuth2Api'];
 	displayName = 'Kommo OAuth2 API';
 	documentationUrl = 'https://kommo.com/developers';
-	icon = 'file:kommo_logo.svg';
+	icon = 'file:kommo_logo.svg' as IconFile;
 	properties: INodeProperties[] = [
 		{
 			displayName: 'Subdomain',

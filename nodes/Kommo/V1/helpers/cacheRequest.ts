@@ -1,4 +1,5 @@
 import { ILoadOptionsFunctions, INodePropertyOptions } from 'n8n-workflow';
+import { setTimeout } from 'node:timers';
 // import { getUniqueId } from '../helpers/getUniqueId';
 
 type MyFunction = (this: ILoadOptionsFunctions) => Promise<INodePropertyOptions[]>;
