@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-kommo",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "n8n node for Kommo Api",
   "keywords": [
     "n8n-community-node-package",
@@ -56,5 +56,8 @@
   },
   "peerDependencies": {
     "n8n-workflow": "*"
+  },
+  "dependencies": {
+    "async-await-mutex-lock": "^1.0.11"
   }
 }
