@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-kommo",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "n8n node for Kommo Api",
   "keywords": [
     "n8n-community-node-package",
@@ -45,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "@types/markdown-it": "^14.1.2",
     "@types/node": "^22.7.5",
     "@typescript-eslint/parser": "^7.15.0",
     "eslint": "^8.56.0",
