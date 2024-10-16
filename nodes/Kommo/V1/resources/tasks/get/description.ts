@@ -25,7 +25,8 @@ export const description: ITasksProperties = [
 			typeOptions: {
 				loadOptionsMethod: 'getActiveUsers',
 			},
-			description: 'Select users. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
+			description:
+				'Select users. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 		},
 		{
 			displayName: 'Is Completed',
@@ -37,7 +38,8 @@ export const description: ITasksProperties = [
 			displayName: 'Task Type Names or IDs',
 			name: 'task_type',
 			type: 'multiOptions',
-			description: 'Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
+			description:
+				'Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 			default: [],
 			typeOptions: {
 				loadOptionsMethod: 'getTaskTypes',

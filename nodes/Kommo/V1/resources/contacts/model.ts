@@ -11,7 +11,8 @@ const modelDescription: INodeProperties[] = [
 		typeOptions: {
 			loadOptionsMethod: 'getActiveUsersWithRobot',
 		},
-		description: 'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
+		description:
+			'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 		// noDataExpression: true,
 	},
 	{
@@ -23,7 +24,8 @@ const modelDescription: INodeProperties[] = [
 		typeOptions: {
 			loadOptionsMethod: 'getActiveUsersWithRobot',
 		},
-		description: 'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
+		description:
+			'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 		// noDataExpression: true,
 	},
 	{
@@ -35,7 +37,8 @@ const modelDescription: INodeProperties[] = [
 		typeOptions: {
 			loadOptionsMethod: 'getActiveUsersWithRobot',
 		},
-		description: 'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
+		description:
+			'Select user. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 		// noDataExpression: true,
 	},
 	{
@@ -80,7 +83,8 @@ export const makeContactModelDescription = (
 						displayName: 'Tag Names or IDs',
 						name: 'id',
 						type: 'multiOptions',
-						description: 'Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
+						description:
+							'Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 						typeOptions: {
 							loadOptionsMethod: 'getTags',
 						},

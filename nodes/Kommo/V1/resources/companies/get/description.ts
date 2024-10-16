@@ -47,7 +47,8 @@ export const description: ICompaniesProperties = [
 			typeOptions: {
 				loadOptionsMethod: 'getActiveUsers',
 			},
-			description: 'Select users. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
+			description:
+				'Select users. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 			noDataExpression: true,
 		},
 		{
@@ -58,7 +59,8 @@ export const description: ICompaniesProperties = [
 			typeOptions: {
 				loadOptionsMethod: 'getActiveUsers',
 			},
-			description: 'Select users. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
+			description:
+				'Select users. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 			noDataExpression: true,
 		},
 		{
@@ -69,7 +71,8 @@ export const description: ICompaniesProperties = [
 			typeOptions: {
 				loadOptionsMethod: 'getActiveUsers',
 			},
-			description: 'Select users. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
+			description:
+				'Select users. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>. Choose from the list, or specify IDs using an <a href="https://docs.n8n.io/code/expressions/">expression</a>.',
 			noDataExpression: true,
 		},
 		addDateRangeDescription('Created at', 'created_at'),

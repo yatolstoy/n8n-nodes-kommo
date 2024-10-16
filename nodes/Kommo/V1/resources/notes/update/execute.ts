@@ -141,7 +141,7 @@ export async function execute(
 							request_id: el.request_id,
 							note_type: noteType,
 							params,
-					  }
+						}
 					: undefined;
 			});
 		})
